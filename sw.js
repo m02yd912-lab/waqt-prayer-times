@@ -1,5 +1,5 @@
 /* Waqt service worker — app-shell precache + runtime caching + push notifications */
-const VERSION = 'v1.0.0';
+const VERSION = 'v1.1.0';
 const SHELL_CACHE = 'waqt-shell-' + VERSION;
 const RUNTIME_CACHE = 'waqt-runtime-' + VERSION;
 const FONT_CACHE = 'waqt-fonts-' + VERSION;
