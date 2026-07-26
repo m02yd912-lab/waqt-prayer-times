@@ -2,9 +2,9 @@
   "name": "Waqt — مواقيت الصلاة",
   "short_name": "Waqt",
   "description": "مواقيت الصلاة محسوبة فلكياً، مع القبلة والطقس وأقرب المساجد. Astronomically calculated prayer times, Qibla, weather, and nearby mosques.",
-  "id": "/",
-  "start_url": "/?source=pwa",
-  "scope": "/",
+  "id": "/waqt-prayer-times/",
+  "start_url": "/waqt-prayer-times/?source=pwa",
+  "scope": "/waqt-prayer-times/",
   "display": "standalone",
   "display_override": ["window-controls-overlay", "standalone"],
   "orientation": "portrait-primary",
@@ -24,13 +24,13 @@
     {
       "name": "اتجاه القبلة",
       "short_name": "القبلة",
-      "url": "/?shortcut=qibla",
+      "url": "/waqt-prayer-times/?shortcut=qibla",
       "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "جدول الشهر",
       "short_name": "الجدول",
-      "url": "/?shortcut=timetable",
+      "url": "/waqt-prayer-times/?shortcut=timetable",
       "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
     }
   ],
